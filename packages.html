@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Packages</title>
+
+	<style type="text/css">
+		
+
+	*{
+		margin: 0px;
+		padding: 0px;
+
+		font-family: monospace;
+	}
+
+	
+	nav{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 94.8%;
+		background-color: transparent;
+		text-align: left;
+
+		background-color: #3d3c3a;
+
+		padding: 35px;
+		position: fixed;
+		z-index: 1;
+	}
+
+	input{
+
+		float: right;
+		position: absolute;
+		right: 90px;
+		top: 25px;
+	}
+
+	.reg{
+
+		color: white;
+		background-color:black;
+		padding: 8px 28px;
+		border: none;
+		border-radius: 30px;
+		font-size: 20px;
+
+	}
+
+	.reg:hover{
+
+		color: black;
+		background-color:white;
+
+	}
+	a,strong{
+
+		font-size: 22px;
+		background-color: transparent;
+		margin-right: 35px;
+		color: black;
+		text-decoration: none;
+		padding-left: 10px;
+		
+	}
+
+	strong:hover{
+
+		color: white;
+	}
+
+	.bd{
+
+		position: absolute;
+		top: 96px;
+		left: 0px;
+
+		width: 100%;
+		height: 1000px;
+		background-color: lightgray;
+
+		position: relative;
+	}
+
+	
+
+	.final{
+
+			width: 99.5%;
+			height: 180px;
+			overflow-x: auto;
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 990px;
+
+			padding: 3px;
+		}
+
+		table{
+
+			width: 100%;
+			height: 180px;
+			border: 5px solid black;
+			text-align: center;
+			background-color: black;
+			color: white;
+
+		}
+
+		tr,td,th{
+
+			border: none;
+			background-color: black;
+		}
+
+		.row{
+
+			position: absolute;
+			top: 100px;
+			left: 40px;
+
+
+		}
+
+		.row::after{
+
+			clear: both;
+			content: "";
+			display: table;
+		}
+
+		.row1{
+
+			position: absolute;
+			top: 510px;
+			left: 40px;
+		}
+
+		.row1::after{
+
+			clear: both;
+			content: "";
+			display: table;
+		}
+
+		.cimg{
+
+			height: 200px;
+			width: 100%;
+		}
+
+		.col{
+
+			width: 20%;
+			height: 300px;
+			padding: 10px;
+			margin: 18px;
+			float: left;
+			box-shadow: 2px 2px 2px 2px gray;
+
+			position: relative;
+		}
+		.col:hover{
+
+			box-shadow: 2px 2px 2px 2px darkblue;
+		}
+
+		h1{
+
+			color: #3d3c3a;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 200px;
+			font-size: 25px;
+			font-family: monospace;
+
+			position: absolute;
+			top: -80px;
+			z-index: 1;
+
+		}
+		h2{
+
+			color: #3d3c3a;
+			text-transform: uppercase;
+			text-align: center;
+			font-weight: 200px;
+			font-size: 25px;
+			font-family: monospace;
+
+			position: absolute;
+			top: -50px;
+			z-index: 1;
+
+		}
+
+		.col h3{
+
+			position: absolute;
+			top: 0px;
+			left: 0px;
+
+			font-size: 18px;
+			font-family: monospace;
+			font-weight: bolder;
+
+			color: white;
+			background: #3d3c3a;
+			padding: 8px;
+		}
+
+
+	
+	</style>
+</head>
+<body>
+
+	<header>
+		
+
+		<nav> 
+
+			<a href="home.html"> <strong>Home</strong></a>
+			<a href="about.html"> <strong>About</strong></a>
+			<a href="packages.html"> <strong>Packages</strong></a>
+			<a href="contact.html"> <strong>Contact</strong></a>
+			<input type="submit" value="Register" class="reg">
+			
+	</nav>
+
+	</header>
+
+	<div class="bd">
+
+		<div class="row">
+
+			<h1> Enjoy THE World</h1>
+
+			<h2> Choose your favourite country...</h2>
+
+			<div class="col">
+
+			<img class="cimg" src="c1.jpg"></img>
+
+		 	<h3> India</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src=" c2.jpg"></img>
+
+		 	<h3 class="ptext">Thailand</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src="c3.jpg"></img>
+
+		 	<h3> Singapore</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src="c4.jpg"></img>
+
+		 	<h3> Japan</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+			
+		</div>
+
+
+		<div class="row1">
+
+			<div class="col">
+
+			<img class="cimg" src="c5.jpg"></img>
+
+		 	<h3> Norway</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src="c6.jpg"></img>
+
+		 	<h3> Netherland</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src="c7.jpg"></img>
+
+		 	<h3> Bhutan</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+
+			<div class="col">
+
+			<img class="cimg" src="c8.jpeg"></img>
+
+		 	<h3> Vietnam</h3>
+		 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		 	tempor incididunt ut labore et dolore magna aliqua.</p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+	<div class="final">
+
+		<table> 
+
+
+		<thead> 
+
+		<tr>
+
+			<th> Company</th>
+			<th > Information</th>
+			<th colspan="5"> </th>
+			<th colspan="2"></th>
+
+		</tr>
+
+		</thead>
+
+		<tbody>
+		
+		<tr>
+			<td> Home</td>
+			<td> 123 Street , New York , USA</td>
+			<td colspan="5"></td>
+			<td> Newsletter</td>
+
+		</tr>
+
+		<tr>
+			<td> About Us </td>
+			<td> 012 3456 7890</td>
+			<td colspan="5"></td>
+			<td></td>
+			
+
+
+		</tr>
+
+		<tr>
+			<td> Contact Us </td>
+			<td> mail@gamil.com</td>
+			<td colspan="5"></td>
+			<td> </td>
+
+		</tr>
+
+		<tr>
+			<td> Packages </td>
+			<td> www.blalbah.com</td>
+			<td colspan="5"></td>
+			<td><input type="mailto" value="@gmail.com" name=""></td>
+
+		</tr>
+
+
+			</tbody>
+
+			</table>
+
+		</div>
+
+</body>
+</html>
